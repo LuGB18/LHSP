@@ -2,6 +2,7 @@
 This is an Pack for Homebrew'd switches for easy setup, its simple, drag and drop.
 
 =-|TRAD PT-BR|-=
+
 Esse é um pacote para Switche's desbloqueados para configuração rapida, apenas arraste e jogue.
 
 # Current Contents of the Pack
@@ -11,6 +12,7 @@ Current Pack Atmosphere Version: |1.7.1|
 Current Pack Hekate Version: |6.2.1|
 
 =-|TRAD PT-BR|-=
+
 Versão do Pacote: |1.0.0|
 Versão Surpotada do Firmware do Pacote: |18.1.0|
 Versão Atual do Atmosphere do Pacote: |1.7.1|
