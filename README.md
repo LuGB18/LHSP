@@ -1,3 +1,5 @@
+#THIS REPO HAS BEEN ARCHIVED / ESSE REPOSITORIO FOI ARQUIVADO
+
 # LHSP - Luan's Homebrew'd Switch Pack
 This is an Pack for Homebrew'd switches for easy setup, its simple, drag and drop.
 
