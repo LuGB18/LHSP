@@ -2,11 +2,12 @@
 This is an Pack for Homebrew'd switches for easy setup, its simple and lightweight.
 
 # Current Contents of the Pack
-Pack Version: |2.0.0|
-Suported Pack FW: |21.2.0|
-Current Pack Atmosphere Version: |1.10.2| | Basic Suport
-(for now, when Atmosphere devs let a new release i will update the version on the pack.)
-Current Pack Hekate Version: |6.5.1|
+| Item                             | Versão / Observação        |
+|----------------------------------|----------------------------|
+| Pack Version                     | 2.0.0                      |
+| Supported Pack FW                | 21.2.0                     |
+| Current Pack Atmosphere Version  | 1.10.2 (Basic Support)     |
+| Current Pack Hekate Version      | 6.5.1                      |
 
 # Current Installed Features
 - HEKATE 6.5.1
