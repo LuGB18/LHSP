@@ -19,7 +19,8 @@ This is an Pack for Homebrew'd switches for easy setup, its simple and lightweig
 - GOLDLEAF
 
 # Hekate BOOT options
-- EmuMMC 
+- EmuMMC.
+ 
 Why i didn't put emmc? well, i condone anyone that tries to mess their good sys-fw,
 but if you want, edit hekate_ipl.ini on /bootloader/hekate_ipl.ini, there you can put the emmc boot options, but for me
 im keeping the safe way.
