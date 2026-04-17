@@ -1,33 +1,63 @@
 # LHSP - Luan's Homebrewed Switch Pack
-A lightweight and easy-to-setup pack for jailbroken Nintendo Switch consoles.
 
-# Current Contents of the Pack
-| Items                            | Version                |
-|----------------------------------|------------------------|
-| Pack Version                     | 2.1.0                  |
-| Supported Pack FW                | 22.0.0                 |
-| Current Pack Atmosphere Version  | 1.11.1 (Basic Support) |
-| Current Pack Hekate Version      | 6.5.2                  |
+**A lightweight and clean pack** for Nintendo Switch.
 
-# Current Installed Features
-- HEKATE (6.5.2)
-- ATMOSPHERE (1.11.1)
-- SIGPATCHES (sys-patch) (1.6.0)
-- UltraHand overlay (2.4.0) & Nx-Ovlloader (16.0.0)
-- SYS-CLK (2.0.1)
-- DBI (874)
-- GOLDLEAF (1.2.0)
+Made for those who want something simple, without bloat and up-to-date.
 
-# Hekate BOOT options
-- EmuMMC
- 
-Why i didn't put SysMMC? well, i condone anyone that tries to mess their good sys-fw,
-but if you want, edit hekate_ipl.ini on /bootloader/hekate_ipl.ini, there you can put the emmc boot options, but for me
-im keeping the safe way.
+### Current Pack Contents
 
-# Exosphere Warning
-Your EmuMMC WILL have it's serial and product info blanked, so you wont get banned if you delete or change the hosts folder on atmosphere. but if you want you can disable the flag, go to /exosphere.ini.
-You have been warned of a potential ban if you do so or get your serial and product info stolen by an cracker.
+| Item                          | Version                 |
+|-------------------------------|-------------------------|
+| Pack Version                  | 2.1.0                   |
+| Supported Firmware            | 22.0.0                  |
+| Atmosphere                    | 1.11.1 (Basic Support)  |
+| Hekate                        | 6.5.2                   |
 
-# Legal Stuff
-I DO NOT condone piracy. this pack HAS sigpatches by default.
+### Included Homebrews
+
+- **Hekate** 6.5.2
+- **Atmosphere** 1.11.1
+- **sys-patch** (sigpatches)
+- **UltraHand** + **Nx-Ovlloader**
+- **sys-clk**
+- **DBI**
+- **Goldleaf**
+
+---
+
+### How to Install
+
+1. Download the latest version [here](https://github.com/LuGB18/LHSP/releases)
+2. Extract the .zip file directly to the root of your SD card
+3. Start the console with Hekate (payload)
+4. Choose **EmuMMC** (default)
+
+Done.
+
+### Hekate Boot Options
+
+- **EmuMMC** → Default (recommended)
+- **SysMMC** → Not configured by default
+
+If you want to boot into SysMMC, edit the `/bootloader/hekate_ipl.ini` file.
+
+---
+
+### ⚠️ Important Notice (Exosphere)
+
+Your EmuMMC comes with **serial and product info blanked** for security.  
+This significantly reduces the risk of a ban if you use sigpatches.
+
+If you want to disable this protection, edit the `/exosphere.ini` file.
+
+---
+
+### Notes
+
+- Atmosphere is in **Basic Support** on FW 22.0.0. Use at your own risk.
+- This pack **does not include themes, extra overlays, or unnecessary homebrews**.
+- I **do not condone piracy**.
+
+---
+
+**License:** [GPL-3.0](LICENSE)
