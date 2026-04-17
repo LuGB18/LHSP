@@ -55,7 +55,7 @@ If you want to disable this protection, edit the `/exosphere.ini` file.
 ### Notes
 
 - Atmosphere is in **Basic Support** on FW 22.0.0. Use at your own risk.
-- This pack **does not include themes, extra overlays, or unnecessary homebrews**.
+- This pack **does not include themes (including HEKATE ones), extra overlays, or unnecessary homebrews**.
 - I **do not condone piracy**.
 
 ---
