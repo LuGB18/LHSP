@@ -8,20 +8,26 @@ Made for those who want something simple, without bloat and up-to-date.
 
 | Item                          | Version                 |
 |-------------------------------|-------------------------|
-| Pack Version                  | 2.1.0                   |
-| Supported Firmware            | 22.0.0                  |
-| Atmosphere                    | 1.11.1 (Basic Support)  |
-| Hekate                        | 6.5.2                   |
+| Pack Version                  | 2.2.0                   |
+| Supported Firmware            | 22.5.0                  |
+| Atmosphère                    | 1.11.2 (Basic Support)  |
+| Hekate                        | 6.5.3 (Nyx 1.9.3)       |
 
 ### Included Homebrews
 
-- **Hekate** 6.5.2
-- **Atmosphere** 1.11.1
-- **sys-patch** (sigpatches)
-- **UltraHand** + **Nx-Ovlloader**
-- **sys-clk**
-- **DBI**
-- **Goldleaf**
+| Homebrew                      | Version                 |
+|-------------------------------|-------------------------|
+| Hekate                        | 6.5.3                   |
+| Atmosphère                    | 1.11.2                  |
+| sys-patch (sigpatches)        | 1.6.2.3                 |
+| Ultrahand Overlay             | 2.5.1                   |
+| nx-ovlloader                  | 2.0.2                   |
+| sys-clk                       | 2.0.1                   |
+| DBI                           | 895 (multilingual)      |
+| Goldleaf                      | 1.2.0                   |
+| Sphaira                       | 1.0.0                   |
+
+**Bundled tools** (ship with Atmosphère / nx-ovlloader): Daybreak (firmware updater), Haze (USB MTP file transfer), Reboot to Payload, and Ultrahand-Reload.
 
 ---
 
@@ -54,7 +60,7 @@ If you want to disable this protection, edit the `/exosphere.ini` file.
 
 ### Notes
 
-- Atmosphere is in **Basic Support** on FW 22.0.0. Use at your own risk.
+- Atmosphère is in **Basic Support** on FW 22.5.0. Use at your own risk.
 - This pack **does not include themes (including HEKATE ones), extra overlays, or unnecessary homebrews**.
 - I **do not condone piracy**.
 
