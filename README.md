@@ -33,6 +33,7 @@
 | DBI                       | `895` *(multilingual)* |
 | Goldleaf                  | `1.2.0`              |
 | Sphaira                   | `1.0.0`              |
+| JKSV *(save manager)*     | `2025-12-02`         |
 
 <sub>🔧 **Bundled tools** (ship with Atmosphère / nx-ovlloader): Daybreak · Haze (USB MTP) · Reboot to Payload · Ultrahand-Reload.</sub>
 
