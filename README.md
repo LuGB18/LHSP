@@ -31,7 +31,6 @@
 | nx-ovlloader              | `2.0.2`              |
 | sys-clk                   | `2.0.1`              |
 | DBI                       | `895` *(multilingual)* |
-| Goldleaf                  | `1.2.0`              |
 | Sphaira                   | `1.0.0`              |
 | JKSV *(save manager)*     | `2025-12-02`         |
 
