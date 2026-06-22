@@ -1,63 +1,77 @@
-# LHSP - Luan's Homebrewed Switch Pack
+# LHSP — Luan's Homebrewed Switch Pack
 
-**A lightweight and clean pack** for Nintendo Switch.
+> **Lightweight and clean pack for Nintendo Switch.**
+> Simple, no bloat, always up-to-date.
 
-Made for those who want something simple, without bloat and up-to-date.
-
-### Current Pack Contents
-
-| Item                          | Version                 |
-|-------------------------------|-------------------------|
-| Pack Version                  | 2.1.0                   |
-| Supported Firmware            | 22.0.0                  |
-| Atmosphere                    | 1.11.1 (Basic Support)  |
-| Hekate                        | 6.5.2                   |
-
-### Included Homebrews
-
-- **Hekate** 6.5.2
-- **Atmosphere** 1.11.1
-- **sys-patch** (sigpatches)
-- **UltraHand** + **Nx-Ovlloader**
-- **sys-clk**
-- **DBI**
-- **Goldleaf**
+![Pack](https://img.shields.io/badge/Pack-v2.2.0-2ea44f?style=flat-square)
+![Firmware](https://img.shields.io/badge/Firmware-22.5.0-blue?style=flat-square)
+![Atmosphère](https://img.shields.io/badge/Atmosph%C3%A8re-1.11.2-orange?style=flat-square)
+![Hekate](https://img.shields.io/badge/Hekate-6.5.3-8957e5?style=flat-square)
+![License](https://img.shields.io/badge/License-GPL--3.0-lightgrey?style=flat-square)
 
 ---
 
-### How to Install
+## 📦 Contents
 
-1. Download the latest version [here](https://github.com/LuGB18/LHSP/releases)
-2. Extract the .zip file directly to the root of your SD card
-3. Start the console with Hekate (payload)
+| Item                | Version                |
+|---------------------|------------------------|
+| Pack                | `2.2.0`                |
+| Supported Firmware  | `22.5.0`               |
+| Atmosphère          | `1.11.2` *(basic support)* |
+| Hekate              | `6.5.3` *(Nyx 1.9.3)*  |
+
+## 🧩 Included Homebrews
+
+| Homebrew                  | Version              |
+|---------------------------|----------------------|
+| Hekate                    | `6.5.3`              |
+| Atmosphère                | `1.11.2`             |
+| sys-patch *(sigpatches)*  | `1.6.2.3`            |
+| Ultrahand Overlay         | `2.5.1`              |
+| nx-ovlloader              | `2.0.2`              |
+| sys-clk                   | `2.0.1`              |
+| DBI                       | `895` *(multilingual)* |
+| Goldleaf                  | `1.2.0`              |
+| Sphaira                   | `1.0.0`              |
+
+<sub>🔧 **Bundled tools** (ship with Atmosphère / nx-ovlloader): Daybreak · Haze (USB MTP) · Reboot to Payload · Ultrahand-Reload.</sub>
+
+---
+
+## 🚀 Install
+
+1. Download the latest version **[here](https://github.com/LuanBogoqb/LHSP/releases)**
+2. Extract the `.zip` directly to the **root of your SD card**
+3. Boot the console with **Hekate** (payload)
 4. Choose **EmuMMC** (default)
 
-Done.
+That's it. ✅
 
-### Hekate Boot Options
+## ⚙️ Hekate Boot Options
 
-- **EmuMMC** → Default (recommended)
-- **SysMMC** → Not configured by default
+| Option      | Status                       |
+|-------------|------------------------------|
+| **EmuMMC**  | Default *(recommended)*      |
+| **SysMMC**  | Not configured by default    |
 
-If you want to boot into SysMMC, edit the `/bootloader/hekate_ipl.ini` file.
-
----
-
-### ⚠️ Important Notice (Exosphere)
-
-Your EmuMMC comes with **serial and product info blanked** for security.  
-This significantly reduces the risk of a ban if you use sigpatches.
-
-If you want to disable this protection, edit the `/exosphere.ini` file.
+> To boot into SysMMC, edit `/bootloader/hekate_ipl.ini`.
 
 ---
 
-### Notes
+## 🛡️ Anti-Ban (Exosphere)
 
-- Atmosphere is in **Basic Support** on FW 22.0.0. Use at your own risk.
-- This pack **does not include themes (including HEKATE ones), extra overlays, or unnecessary homebrews**.
+Your EmuMMC ships with **serial and product info blanked** for safety — this significantly reduces ban risk when using sigpatches.
+
+> To disable this protection, edit `/exosphere.ini`.
+
+---
+
+## 📝 Notes
+
+- Atmosphère is in **basic support** on FW `22.5.0` — use at your own risk.
+- This pack **does not include themes** (HEKATE ones included), extra overlays, or unnecessary homebrews.
 - I **do not condone piracy**.
 
 ---
 
-**License:** [GPL-3.0](LICENSE)
+<sub>📄 Licensed under **[GPL-3.0](LICENSE)**.</sub>
